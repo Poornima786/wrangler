@@ -1,0 +1,9 @@
+Prompt 1: How to start the Wrangler assignment from scratch?
+Prompt 2: How to add byte size and time duration tokens in Directives.g4?
+Prompt 3: How to generate ANTLR grammar files after modifying Directives.g4?
+Prompt 4: How to fix "package ...grammar does not exist" error?
+Prompt 5: How to write the CustomDirectiveVisitor class?
+Prompt 6: How to structure TokenType, ByteSize, and TimeDuration classes?
+Prompt 7: How to configure build in wrangler-core/pom.xml for ANTLR?
+Prompt 8: How to run Maven build successfully with checkstyle skipped?
+Prompt 9: How to push code to GitHub for assignment submission?
