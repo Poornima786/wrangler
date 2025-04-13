@@ -9,7 +9,7 @@
  import io.cdap.wrangler.api.parser.Token;
  import io.cdap.wrangler.api.parser.ByteSize;
  import io.cdap.wrangler.api.parser.TimeDuration;
- // ✅ These two are the most important ones:
+ // ✅ most important ones:
 import io.cdap.wrangler.parser.DirectivesBaseVisitor;
 import io.cdap.wrangler.parser.DirectivesParser;
 
