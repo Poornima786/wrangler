@@ -167,6 +167,14 @@ bool
  : Bool
  ;
 
+byteSizeArg
+ : BYTE_SIZE
+ ;
+
+timeDurationArg
+ : TIME_DURATION
+ ;
+
 condition
  : OBrace (~CBrace | condition)* CBrace
  ;
@@ -311,3 +319,9 @@ fragment Int
 fragment Digit
  : [0-9]
  ;
+
+BYTE_SIZE: Int ('.' Digit+)? BYTE_UNIT;
+TIME_DURATION: Int ('.' Digit+)? TIME_UNIT;
+
+fragment BYTE_UNIT: [Kk][Bb] | [Mm][Bb] | [Gg][Bb];
+fragment TIME_UNIT: 'ms' | 's' | 'm' | 'h';

@@ -106,6 +106,10 @@ public enum TokenType implements Serializable {
    * </code>
    *
    */
+
+  BYTE_SIZE,
+  TIME_DURATION,
+   
   NUMERIC_LIST,
 
   /**
